@@ -1,9 +1,7 @@
 const express = require('express');
 
-const User = require('../models/User');
-
-const Lesson = require('../models/Lesson');
-const Activity = require('../models/Activity');
+const Lesson = require('../models/lesson');
+const Activity = require('../models/activity');
 
 const router = express.Router();
 
